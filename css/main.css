@@ -77,6 +77,30 @@
 *:active,*:focus{
   outline:none
 }
+a {
+    outline: none;
+    text-decoration: none;
+}
+body {
+    min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF
+}
+.wrap {
+    width: 100%;
+    position: relative;
+    max-width: 1214px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* шрифт-размер*/
 .fsz8 {
     font-size: 12px;
@@ -150,6 +174,9 @@
 /* цвет*/
 
 /* Display-flex */
+.df {
+    display: flex;
+}
 .df-column {
     display: flex;
     flex-direction: column;
@@ -162,11 +189,104 @@
 
 /* Button */
 .green-bt {
+    text-align: center;
     width: 180px;
     height: 45px;
     border-radius: 3px;
-    padding: 14px 25px;
+    padding: 13px 25px 15px 25px;
+    cursor: pointer;
 }
 /* Button */
 
 
+/* Ховеры */
+.header-nav-item p{
+    border-bottom: 1px solid transparent;
+}
+.header-nav-item p:hover{
+    border-bottom: 1px solid #ffffff;
+    transition: 0.3s;
+}
+/* Ховеры */
+
+
+
+
+
+.header {
+    padding-top: 12px;
+}
+.header-body {
+    align-items: center;
+}
+.header-wrapper {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    align-items: center;
+}
+.header-logo img:nth-child(2){
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header-logo p {
+    line-height: 12px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+}
+.hedaer-info {
+    align-items: center;
+}
+.header-info-one {
+    margin-right: 50px;
+}
+.header-info-one a img {
+    margin-right: 10px;
+}
+.header-info-one a {
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.header-info-one a:last-child {
+    margin-bottom: 0;
+}
+.header-info-one__email {
+}
+.header-info-two {
+    flex-direction: column;
+}
+.header-info-two a {
+    align-items: center;
+    cursor: pointer;
+}
+.header-info-two a img {
+    margin-right: 10px;
+}
+.header-info-two a p {
+    flex-direction: column;
+}
+.header-info-two a p:nth-child(1) {
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.header-info-two a p span {
+    margin-top: 3px;
+}
+.header-btn {
+}
+.header-nav {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 18px 0px;
+}
+.header-nav-item {
+    align-items: center;
+    cursor: pointer;
+}
+.header-nav-item__drop {
+    display: none;
+}
