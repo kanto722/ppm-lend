@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*Предварительно установить шрифты в систему и перезапустить браузер*/
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.eot");
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.woff2") format("woff2"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.woff") format("woff"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.ttf") format("truetype"), 
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.eot");
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.woff2") format("woff2"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.woff") format("woff"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.ttf") format("truetype"), 
+}
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.eot");
+    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.woff2") format("woff2"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.woff") format("woff"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.ttf") format("truetype"), 
+  }
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-display: swap;
+    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.eot");
+    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.woff2") format("woff2"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.woff") format("woff"), 
+    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.ttf") format("truetype"), 
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("/css/fonts/gilroy/Gilroy-ExtraBold.eot");
+    src: url("/css/fonts/gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/gilroy/Gilroy-ExtraBold.woff2") format("woff2"), 
+    url("/css/fonts/gilroy/Gilroy-ExtraBold.woff") format("woff"), 
+    url("/css/fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype"), 
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("/css/fonts/gilroy/Gilroy-Light.eot");
+    src: url("/css/fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/gilroy/Gilroy-Light.woff2") format("woff2"), 
+    url("/css/fonts/gilroy/Gilroy-Light.woff") format("woff"), 
+    url("/css/fonts/gilroy/Gilroy-Light.ttf") format("truetype"), 
+  }
+*{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box
+}
+*:active,*:focus{
+  outline:none
+}
+/* шрифт-размер*/
+.fsz8 {
+    font-size: 12px;
+}
+.fsz12 {
+    font-size: 8px;
+}
+.fsz14 {
+    font-size: 14px;
+}
+.fsz16 {
+    font-size: 16px;
+}
+.fsz18 {
+    font-size: 18px;
+}
+.fsz36 {
+    font-size: 36px;
+}
+.fsz50 {
+    font-size: 50px;
+}
+/* шрифт-размер*/
+
+
+
+
+
+/* цвет*/
+/* цвет-текста */
+.black {
+    color: #000000;
+}
+.hex {
+    color: #212121;
+}
+.white {
+    color: #ffffff;
+}
+.white2 {
+    color: #F6F6F6;
+}
+.green {
+    color: #5F8806;
+}
+/* .gray {
+    color: #5B5B5B;
+} */
+.gray2 {
+    color: #A9A29E;
+}
+/* цвет-текста */
+
+
+
+
+/* цвет фона */
+.bg-white {
+    background: #FFFFFF;
+}
+.bg-green {
+    background: #5F8806;
+}
+.bg-blue {
+    background: #48A9CF;
+}
+.bg-pink {
+    background: #F5F4FA;
+}
+/* цвет фона */
+/* цвет*/
+
+/* Display-flex */
+.df-column {
+    display: flex;
+    flex-direction: column;
+}
+.df-row{
+    display: flex;
+    flex-direction: row;
+}
+/* Display-flex */
+
+/* Button */
+.green-bt {
+    width: 180px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 14px 25px;
+}
+/* Button */
+
+
