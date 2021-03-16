@@ -18,11 +18,11 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.eot");
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.woff2") format("woff2"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.woff") format("woff"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Roman.ttf") format("truetype"), 
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.eot");
+  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.woff2") format("woff2"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.woff") format("woff"), 
+  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.ttf") format("truetype"), 
 }
 @font-face {
     font-family: 'HelveticaNeueCyr';
@@ -103,10 +103,10 @@ body {
 
 /* шрифт-размер*/
 .fsz8 {
-    font-size: 12px;
+    font-size: 8px;
 }
 .fsz12 {
-    font-size: 8px;
+    font-size: 12px;
 }
 .fsz14 {
     font-size: 14px;
@@ -119,6 +119,9 @@ body {
 }
 .fsz36 {
     font-size: 36px;
+}
+.fsz40 {
+    font-size: 40px;
 }
 .fsz50 {
     font-size: 50px;
@@ -170,6 +173,9 @@ body {
 .bg-pink {
     background: #F5F4FA;
 }
+.bg-grey {
+    background: #8392A3;
+}
 /* цвет фона */
 /* цвет*/
 
@@ -203,7 +209,7 @@ body {
 .header-nav-item p{
     border-bottom: 1px solid transparent;
 }
-.header-nav-item p:hover{
+.header-nav-item:hover p{
     border-bottom: 1px solid #ffffff;
     transition: 0.3s;
 }
@@ -223,6 +229,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5px;
 }
 .header-logo {
     align-items: center;
@@ -286,7 +293,142 @@ body {
 .header-nav-item {
     align-items: center;
     cursor: pointer;
+    margin-right: 54px;
 }
-.header-nav-item__drop {
-    display: none;
+.header-nav-item:last-child {
+    margin-right: 0;
+}
+.header-nav-item p {
+    margin-left: 9px;
+}
+.header-nav-item p:nth-child(2){
+    margin-right: 9px;
+}
+
+
+.promo {
+    background-image: url(/css/img/promo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 41px;
+    width: 100%;
+    height: 80vh;
+}
+.promo-container {
+    transform: translateY(90px);
+}
+.promo-info {
+    margin-top: 182px;
+    margin-bottom: 31px;
+}
+.promo-info h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+.promo-info p {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    line-height: 18px;
+    margin-bottom: 35px;
+    max-width: 295px;
+}
+.promo-info a {
+    max-width: 240px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    line-height: 16px;
+    padding: 15px 18px 15px 24px;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+.promo-block {
+    padding: 27.01px 0px 26px 70px;
+    align-items: center;
+    box-shadow: 0px 4px 20px #DFDFDF;
+}
+.promo-block-job {
+}
+.promo-block-job span {
+    margin-bottom: 19px;
+    max-width: 120px;
+}
+.promo-block-job img {
+    width: 30px;
+}
+.promo-block-item {
+    margin-right: 34px;
+    margin-left: 40px;
+
+}
+.line {
+    width: 1px;
+    height: 130px;
+    background: #C4C4C4;
+}
+
+.promo-block-item img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.promo-block-item span {
+    margin-bottom: 11px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    line-height: 14px;
+    max-width: 178px;
+}
+
+.promo-block-item p {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+.about {
+    padding-bottom: 162px;
+}
+.about-container {
+    justify-content: space-around;
+    width: 100%;
+}
+.about-text {
+}
+.about-text h2 {
+    margin-bottom: 46px;
+}
+.about-text-content {
+}
+.about-text-content p {
+    max-width: 470px;
+}
+.about-text-content p span {
+
+}
+.line2 {
+    width: 55px;
+    height: 1px;
+    background: #646464;
+    margin-right: 22px;
+}
+.about-img {
+    position: relative;
+}
+.about-img-elem {
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 100px;
+    position: absolute;
+    padding: 46px 20px 46px 20px;
+    left: -80px;
+    bottom: -70px;
+
 }
