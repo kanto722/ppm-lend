@@ -312,7 +312,7 @@ body {
     background-size: 100% auto;
     margin-top: 41px;
     width: 100%;
-    height: 80vh;
+    height: 550px;
 }
 .promo-container {
     transform: translateY(90px);
@@ -395,6 +395,7 @@ body {
 
 .about {
     padding-bottom: 162px;
+    margin-top: 230px;
 }
 .about-container {
     justify-content: space-around;
@@ -415,7 +416,7 @@ body {
 }
 .line2 {
     width: 55px;
-    height: 1px;
+    height: 2px;
     background: #646464;
     margin-right: 22px;
 }
@@ -431,4 +432,96 @@ body {
     left: -80px;
     bottom: -70px;
 
+}
+
+
+.direction {
+
+}
+.direction-container {
+    padding-top: 63px;
+}
+.direction-container h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px
+}
+.direction-content {
+    margin-top: 64px;
+    justify-content: space-between;
+    padding-bottom: 99px;
+}
+.direction-item {
+    width: 320px;
+    height: 380px;
+    border-radius: 3px;
+    position: relative;
+    justify-content: space-around;
+
+}
+.direction-item:hover .direction-item-shadow {
+    z-index: 8;
+}
+.direction-item img {
+    position: absolute;
+    z-index: 10;
+}
+.direction-item-text {
+z-index: 20;
+padding-left: 41px;
+
+}
+.direction-item-text h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 88px;
+}
+.direction-item-text:nth-child(1) h3{
+    margin-bottom: 56px;
+}
+.direction-item-text p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    position: relative;
+}
+.direction-item-text span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    position: absolute;
+    bottom: 34px;
+}
+.direction-item-img {
+    justify-content: flex-end;
+    padding-right: 41px;
+
+}
+.direction-item-img img {
+
+}
+.direction-item-shadow {
+    background: linear-gradient(0deg, rgba(24, 25, 32, 0.2), rgba(24, 25, 32, 0.2)), url(Металлоизделия.jpg);
+    border-radius: 3px;
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+}
+
+
+.step {
+}
+.step-container {
+}
+.step-content {
+}
+.step-item {
+    
 }
