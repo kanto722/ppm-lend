@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <footer class="footer">
         <div class="wrap">
             <div class="footer-container">
