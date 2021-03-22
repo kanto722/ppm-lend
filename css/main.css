@@ -1282,26 +1282,132 @@ color: #48A9CF;
 
 
 .info-uslug {
+    margin-top: 100px;
 }
 .info-uslug-container {
+    display: flex;
+    justify-content: space-around;
 }
 .info-uslug-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 423px;
+    background: #F5F4FA;
+    border-radius: 3px;
 }
 .info-uslug-content {
 }
+.info-uslug-content p {
+    max-width: 380px;
+}
 .info-uslug-title {
+    margin-bottom: 56px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+line-height: 44px;
 }
 .info-uslug-text {
+    font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: normal;
+line-height: 16px;
 }
 .info-uslug-raiting {
+    margin-top: 22px;
+    display: flex;
 }
 .info-uslug-item {
+    width: 101px;
+    margin-right: 75px;
+    display: flex;
+    align-items: flex-start;
 }
 .info-uslug-item-img {
+    padding-top: 5px;
+    margin-right: 10px;
 }
 .info-uslug-item-text {
 }
 .info-uslug-item-text-span {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+line-height: 44px;
 }
 .info-uslug-item-text-text {
+    font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: normal;
+line-height: 14px;
+}
+.production-final {
+    margin-top: 117px;
+}
+.production-final-content {
+    background: #48A9CF;
+    border-radius: 3px;
+    padding: 31px 100px 38px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.production-final-title {
+    max-width: 321px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+}
+.production-final-input {
+
+}
+.production-final-btn {
+    color: #5F8806;
+}
+
+.zakaz {
+    margin-top: 89px;
+}
+.zakaz-container {
+}
+.zakaz-title {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+line-height: 44px;
+}
+.zakaz-cotent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+.zakaz-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 175px;
+    margin-bottom: 75px;
+}
+.zakaz-item-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 11px;
+}
+.zakaz-item-span {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+line-height: 19px;
+margin-bottom: 19px;
+}
+.zakaz-item-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    max-width: 200px;
 }
