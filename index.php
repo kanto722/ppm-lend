@@ -151,6 +151,19 @@
     <?php
         include (''.$root_server.'/include/contacts.php');
     ?>
+
+<section class="docum">
+        <div class="wrap">
+            <div class="docum-content">
+                <h2 class="fsz36 black">Официальные документы</h2>
+                <div class="docum-content-item">
+                    <p class="fsz16 black">Реквизиты компании “ПрофПолимерМеталл”</p>
+                    <div class="line-docum"></div>
+                    <a class="fsz16 green" href="#">Скачать *pdf</a>
+                </div>
+            </div>
+        </div>
+    </section>
 <?php
     include (''.$root_server.'/include/plasts.php');
 ?>
