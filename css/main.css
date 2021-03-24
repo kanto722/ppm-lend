@@ -1729,3 +1729,17 @@ margin-bottom: 19px;
     font-weight: normal;
     line-height: 16px;
 }
+/* .slider-top-slider {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.slider-top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider-top-df {
+    display: flex;
+    flex-direction: row;
+} */
