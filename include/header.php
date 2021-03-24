@@ -33,17 +33,17 @@
                         <div class="hedaer-info df">
                             <div class="header-info-one">
                                 <a class="df" href="malito:polimermetall72@mail.ru" class="header-info-one__email">
-                                    <img src="/css/img/svg/mail-header.svg" alt="почта">
+                                    <img src="/css/img/svg/mail-green.svg" alt="почта">
                                     <p class="fsz12 black">polimermetall72@mail.ru</p>
                                 </a>
                                 <a class="df" href="#">
-                                    <img src="/css/img/svg/map-header.svg" alt="пункт">
+                                    <img src="/css/img/svg/map-green.svg" alt="пункт">
                                     <p class="fsz12 black">г. Тюмень, Старый Тобольский тракт 5 км, д. 2, ст.10, п. 2.</p>
                                 </a>
                             </div>
                             <div class="header-info-two df">
                                 <a class="df" href="tel:73452548800">
-                                    <img src="/css/img/svg/phone-header.svg" alt="телефон">
+                                    <img src="/css/img/svg/phone-green.svg" alt="телефон">
                                     <p class="fsz12 black df">+7 (3452) 54-88-00<br><span class="fsz8 hex">Отдел полимерных покрытий</span></p>
                                 </a>
                                 <a href="tel:73452530575">
