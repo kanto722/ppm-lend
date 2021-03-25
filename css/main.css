@@ -1760,6 +1760,8 @@ padding-top: 20px;
     cursor: pointer;
     margin-top: 10px;
     opacity: 0.6;
+    transition: 0.3s;
+
 }
 .buy-mini__active {
     opacity: 1;
@@ -1773,4 +1775,285 @@ padding-top: 20px;
 .buy-big-img {
     max-width: 485px;
 
+}
+
+.jobs {
+    margin-top: 90px;
+}
+.jobs-container {
+    display: flex;
+    justify-content: space-between;
+}
+.jobs-img {
+}
+.jobs-img-big {
+}
+.jobs-big-foto {
+    max-width: 697px;
+}
+.jobs-img-mini {
+    margin-top: 11px;
+}
+.jobs-mini-foto {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    object-fit: contain;
+
+}
+.jobs-mini-foto__active {
+    opacity: 1;
+}
+.jobs-mini-foto:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.jobs-content {
+}
+.jobs-title {
+    margin-bottom: 70px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+}
+.jobs-content-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    max-width: 320px;
+    margin-bottom: 41px;
+}
+.jobs-content-text {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 20px;
+    max-width: 341px;
+}
+.jobs-content-btn {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.jobs-two {
+    margin-top: 90px;
+}
+.jobs-two-container {
+    display: flex;
+    justify-content: space-between;
+}
+.jobs-two-img {
+}
+.jobs-two-img-big {
+}
+.jobs-two-big-foto {
+    max-width: 697px;
+}
+.jobs-two-img-mini {
+    margin-top: 11px;
+}
+.jobs-two-mini-foto {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    object-fit: contain;
+
+}
+.jobs-two-mini-foto__active {
+    opacity: 1;
+}
+.jobs-two-mini-foto:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.jobs-two-content {
+}
+.jobs-two-title {
+    margin-bottom: 70px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+}
+.jobs-two-content-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    max-width: 320px;
+    margin-bottom: 41px;
+}
+.jobs-two-content-text {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 20px;
+    max-width: 341px;
+}
+.jobs-two-content-btn {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.jobs-three {
+    margin-top: 90px;
+}
+.jobs-three-container {
+    display: flex;
+    justify-content: space-between;
+}
+.jobs-three-img {
+}
+.jobs-three-img-big {
+}
+.jobs-three-big-foto {
+    max-width: 697px;
+}
+.jobs-three-img-mini {
+    margin-top: 11px;
+}
+.jobs-three-mini-foto {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    object-fit: contain;
+
+}
+.jobs-three-mini-foto__active {
+    opacity: 1;
+}
+.jobs-three-mini-foto:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.jobs-three-content {
+}
+.jobs-three-title {
+    margin-bottom: 70px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+}
+.jobs-three-content-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    max-width: 320px;
+    margin-bottom: 41px;
+}
+.jobs-three-content-text {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 20px;
+    max-width: 341px;
+}
+.jobs-three-content-btn {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.jobs-four {
+    margin-top: 90px;
+}
+.jobs-four-container {
+    display: flex;
+    justify-content: space-between;
+}
+.jobs-four-img {
+}
+.jobs-four-img-big {
+}
+.jobs-four-big-foto {
+    max-width: 697px;
+}
+.jobs-four-img-mini {
+    margin-top: 11px;
+}
+.jobs-four-mini-foto {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.6;
+    object-fit: contain;
+
+}
+.jobs-four-mini-foto__active {
+    opacity: 1;
+}
+.jobs-four-mini-foto:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.jobs-four-content {
+}
+.jobs-four-title {
+    margin-bottom: 70px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+line-height: 43px;
+}
+.jobs-four-content-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    max-width: 320px;
+    margin-bottom: 41px;
+}
+.jobs-four-content-text {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 20px;
+    max-width: 341px;
+}
+.jobs-four-content-btn {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
 }
