@@ -85,41 +85,8 @@
                 </div>
             </div>
     </header>
-    <section class="slider-top">
-        <div class="wrap">
-            <div class="slider-top-container">
-                <div class="slider-top-slider">
-                    <div class="swiper-container gallery-top">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide"> <img class="buy-img-slider" src="/css/img/bench-cart.jpg" alt=""></div>
-                          <div class="swiper-slide"> <img class="buy-img-slider" src="/css/img/bench-cart.jpg" alt=""></div>
-                          <div class="swiper-slide"> <img class="buy-img-slider" src="/css/img/bench-cart.jpg" alt=""></div>
-                        </div>
-                        <!-- Add Arrows
-                        <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div> -->
-                      </div>
-                      <div class="swiper-container gallery-thumbs slider-top">
-                        <div class="swiper-wrapper slider-top-df" style="display: flex;flex-direction: row;">
-                          <div class="swiper-slide " style="width: 50px; height: 50px; background-image:url(/css/img/bench-gray.png); background-size: 100% auto; background-repeat: no-repeat;"></div>
-                          <div class="swiper-slide" style="width: 50px; height: 50px; background-image:url(/css/img/bench-gray.png); background-size: 100% auto; background-repeat: no-repeat;"></div>
-                          <div class="swiper-slide" style="width: 50px; height: 50px; background-image:url(/css/img/bench-gray.png); background-size: 100% auto; background-repeat: no-repeat;"></div>
-                        </div>
-                        <!-- <div class="swiper-button-next swiper-button-white"></div>
-                        <div class="swiper-button-prev swiper-button-white"></div> -->
-                      </div>
-                </div>
-                <div class="buy-content">
-                    <h1 class="fsz32 black buy-title">Название готового изделия №1</h1>
-                    <div class="buy-content-price">
-                        <p class="fsz35 hex buy-price-text">100 000  ₽</p>
-                        <a class="fsz16 white buy-price-btn" href="#">Оформить заказ</a>
-                    </div>
-                    <span class="fsz16 gray buy-price-subtext">Информация о наличии товара</span>
-                    <p class="fsz16 gray buy-price-text-two">Для этого товара вы можете оформить самовывоз, либо заказать доставку</p>
-                </div>
-            </div>
-        </div>
+    <section class="">
+
     </section>
     <section class="info-product">
         <div class="wrap">
@@ -220,6 +187,49 @@
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="/js/bundle.js"></script>
-<script src="/js/script.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    spaceBetween: 28,
+    slidesPerView: 3,
+    // Navigation arrows
+    allowTouchMove: false,
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    });
+
+    
+  
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      freeMode: true,
+      // watchSlidesVisibility: true,
+      // watchSlidesProgress: true,
+    //   direction: 'vertical',
+      
+
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      centeredSlides: true,
+      slidesPerView: 1,
+      keyboard: {
+        enabled: true,
+
+      },
+      allowTouchMove: false,
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+</script>
 </body>
 </html>

@@ -1743,3 +1743,34 @@ margin-bottom: 19px;
     display: flex;
     flex-direction: row;
 } */
+
+
+.buy-content-img {
+    display: flex;
+}
+.buy-content-img-mini {
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+padding-top: 20px;
+}
+.buy-mini-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+.buy-mini__active {
+    opacity: 1;
+}
+.buy-mini-img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.buy-content-img-big {
+}
+.buy-big-img {
+    max-width: 485px;
+
+}
