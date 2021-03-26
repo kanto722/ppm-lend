@@ -10,3 +10,19 @@ const swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
     });
+
+
+  $(document).ready(function() {
+    
+    // бургер клик
+    $('.header-burger').click(function() {
+      $('.header-burger').toggleClass('open-menu');
+      $('.header-media').toggleClass('header-media__active');
+    });
+
+
+
+
+
+
+});
