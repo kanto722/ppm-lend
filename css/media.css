@@ -202,6 +202,15 @@
     .jobs-four-img {
         margin-left: 30px;
     }
+    .buy-content-img-mini {
+        margin-right: 20px;
+    }
+    .buy-big-img {
+        max-width: 375px;
+    }
+    .about-product-slider-img {
+        object-fit: none;
+    }
 }
 @media screen and (max-width: 992px){
     .metal-elem {
@@ -328,6 +337,28 @@
         font-size: 30px;
         line-height: 28px;
         margin-bottom: 20px;
+    }
+    .buy-big-img {
+        max-width: 250px;
+    }
+    .buy-content-img-mini {
+        padding-top: 0;
+    }
+    .buy-title {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .buy {
+        padding-top: 45px;
+    }
+    .buy-price-text {
+        font-size: 30px;
+    }
+    .buy-content-price {
+        padding: 24px 38px 34px 22px;
+    }
+    .buy-content-img-mini {
+        margin-right: 12px;
     }
 }
 @media screen and (max-width: 768px){
@@ -575,6 +606,26 @@
     .jobs-four-img {
         margin-left: 0;
     }
+    .buy-container {
+        flex-direction: column;
+    }
+    .buy-title {
+        width: 100%;
+    }
+    .tabs {
+        padding-bottom: 60px;
+    }
+    .tabs-bottom {
+        margin-top: 0;
+    }
+    .gotovo-slider-img {
+        width: auto;
+        object-fit: none;
+    }
+    .info-product-title {
+        text-align: center;
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 480px){
     .header-info-one a {
@@ -600,7 +651,8 @@
         line-height: 28px;
     }
     .gotovo-slider-img {
-        object-fit: contain;
+        width: 100%;
+        object-fit: cover;
     }
     .gotovo-title {
         font-size: 30px;
@@ -617,6 +669,46 @@
     }
     .jobs {
         margin-top: 50px;
+    }
+    .buy-title {
+        text-align: center;
+        line-height: 30px;
+        max-width: 280px;
+    }
+    .buy-content {
+        margin-top: 20px;
+    }
+    .buy-content-img {
+        flex-direction: column-reverse;
+    }
+    .buy-content-img-mini {
+        margin-right: 0;
+        flex-direction: row;
+    }
+    .buy-mini-img {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .buy-content-price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buy-price-text {
+        margin-bottom: 20px;
+    }
+    .tabs-block {
+        margin-top: 30px;
+    }
+    .about-product-slider-img {
+        object-fit: contain;
+    }
+    .gotovo-slider-img {
+        object-fit: contain;
+    }
+    .info-product-title {
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 @media screen and (max-width: 375px){
@@ -637,6 +729,24 @@
     }
     .jobs-four-img-mini {
         margin-left: 5px;
+    }
+    .buy-content-price {
+        padding: 24px 15px 30px 15px;
+    }
+    .buy-big-img {
+        max-width: 100%;
+    }
+    .buy-content {
+        width: 100%;
+    }
+    .buy-price-text-two {
+        width: 100%;
+    }
+    .info-product-title {
+        font-size: 20px;
+        line-height: 25px;
+        transform: translateY(-31px);
+
     }
 }
 @media screen and (max-width: 320px){
