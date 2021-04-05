@@ -1,73 +1,73 @@
 @charset "UTF-8";
 
 /*Предварительно установить шрифты в систему и перезапустить браузер*/
-@font-face {
-  font-family: 'HelveticaNeueCyr';
+/* @font-face {
+  font-family: 'Roboto';
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.eot");
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.woff2") format("woff2"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.woff") format("woff"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Bold.ttf") format("truetype"), 
+  src: url("/css/fonts/Roboto/Roboto-Bold.eot");
+  src: url("/css/fonts/Roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), 
+  url("/css/fonts/Roboto/Roboto-Bold.woff2") format("woff2"), 
+  url("/css/fonts/Roboto/Roboto-Bold.woff") format("woff"), 
+  url("/css/fonts/Roboto/Roboto-Bold.ttf") format("truetype"), 
 }
 
 @font-face {
-  font-family: 'HelveticaNeueCyr';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.eot");
-  src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.woff2") format("woff2"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.woff") format("woff"), 
-  url("/css/fonts/Helvetica/HelveticaNeueCyr-Thin.ttf") format("truetype"), 
+  src: url("/css/fonts/Roboto/Roboto-Regular.eot");
+  src: url("/css/fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), 
+  url("/css/fonts/Roboto/Roboto-Regular.woff2") format("woff2"), 
+  url("/css/fonts/Roboto/Roboto-Regular.woff") format("woff"), 
+  url("/css/fonts/Roboto/Roboto-Regular.ttf") format("truetype"), 
 }
 @font-face {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.eot");
-    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.eot?#iefix") format("embedded-opentype"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.woff2") format("woff2"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.woff") format("woff"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Black.ttf") format("truetype"), 
+    src: url("/css/fonts/Roboto/Roboto-Black.eot");
+    src: url("/css/fonts/Roboto/Roboto-Black.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Roboto/Roboto-Black.woff2") format("woff2"), 
+    url("/css/fonts/Roboto/Roboto-Black.woff") format("woff"), 
+    url("/css/fonts/Roboto/Roboto-Black.ttf") format("truetype"), 
   }
   @font-face {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     font-display: swap;
-    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.eot");
-    src: url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.woff2") format("woff2"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.woff") format("woff"), 
-    url("/css/fonts/Helvetica/HelveticaNeueCyr-Medium.ttf") format("truetype"), 
-  }
-  @font-face {
-    font-family: 'Gilroy';
+    src: url("/css/fonts/Roboto/Roboto-Medium.eot");
+    src: url("/css/fonts/Roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Roboto/Roboto-Medium.woff2") format("woff2"), 
+    url("/css/fonts/Roboto/Roboto-Medium.woff") format("woff"), 
+    url("/css/fonts/Roboto/Roboto-Medium.ttf") format("truetype"), 
+  } */
+  /* @font-face {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url("/css/fonts/gilroy/Gilroy-ExtraBold.eot");
-    src: url("/css/fonts/gilroy/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), 
-    url("/css/fonts/gilroy/Gilroy-ExtraBold.woff2") format("woff2"), 
-    url("/css/fonts/gilroy/Gilroy-ExtraBold.woff") format("woff"), 
-    url("/css/fonts/gilroy/Gilroy-ExtraBold.ttf") format("truetype"), 
+    src: url("/css/fonts/Roboto/Roboto-ExtraBold.eot");
+    src: url("/css/fonts/Roboto/Roboto-ExtraBold.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Roboto/Roboto-ExtraBold.woff2") format("woff2"), 
+    url("/css/fonts/Roboto/Roboto-ExtraBold.woff") format("woff"), 
+    url("/css/fonts/Roboto/Roboto-ExtraBold.ttf") format("truetype"), 
   }
   @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url("/css/fonts/gilroy/Gilroy-Light.eot");
-    src: url("/css/fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"), 
-    url("/css/fonts/gilroy/Gilroy-Light.woff2") format("woff2"), 
-    url("/css/fonts/gilroy/Gilroy-Light.woff") format("woff"), 
-    url("/css/fonts/gilroy/Gilroy-Light.ttf") format("truetype"), 
-  }
+    src: url("/css/fonts/Roboto/Roboto-Light.eot");
+    src: url("/css/fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), 
+    url("/css/fonts/Roboto/Roboto-Light.woff2") format("woff2"), 
+    url("/css/fonts/Roboto/Roboto-Light.woff") format("woff"), 
+    url("/css/fonts/Roboto/Roboto-Light.ttf") format("truetype"), 
+  } */
 *{
   margin:0;
   padding:0;
@@ -100,7 +100,30 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
 /* шрифт-размер*/
 .fsz8 {
     font-size: 8px;
@@ -247,12 +270,12 @@ body {
     align-items: center;
 }
 .header-logo img:nth-child(2){
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .header-logo p {
     line-height: 12px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
 }
@@ -322,7 +345,6 @@ body {
     background-image: url(/css/img/promo-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    margin-top: 41px;
     width: 100%;
     height: 550px;
 }
@@ -331,18 +353,16 @@ body {
     background-repeat: no-repeat;
     background-size: 70% auto;
     background-position: top 95% center;
-    margin-top: 41px;
     width: 100%;
-    height: 550px;
+    height: 607px;
 }
 .production-title {
     max-width: 488px;
 }
 .promo-container {
-    transform: translateY(90px);
+    transform: translateY(9px);
 }
 .production-container {
-    transform: translateY(-70px);
 }
 .production-btn {
     background: #48A9CF;
@@ -353,14 +373,14 @@ border-radius: 3px;
     margin-bottom: 31px;
 }
 .promo-info h1 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
     margin-bottom: 15px;
 }
 .promo-info p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 18px;
@@ -374,7 +394,7 @@ border-radius: 3px;
 }
 .promo-info a {
     max-width: 240px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
@@ -415,7 +435,7 @@ border-radius: 3px;
 }
 .promo-block-item span {
     margin-bottom: 11px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 14px;
@@ -423,7 +443,7 @@ border-radius: 3px;
 }
 
 .promo-block-item p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 14px;
@@ -478,7 +498,7 @@ border-radius: 3px;
     padding-top: 63px;
 }
 .direction-container h2 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px
@@ -509,7 +529,7 @@ padding-left: 41px;
 
 }
 .direction-item-text h3 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;
@@ -519,7 +539,7 @@ padding-left: 41px;
     margin-bottom: 56px;
 }
 .direction-item-text p {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -527,7 +547,7 @@ padding-left: 41px;
     position: relative;
 }
 .direction-item-text span {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -560,7 +580,7 @@ padding-left: 41px;
 }
 .step-container h2 {
     margin-bottom: 100px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -577,18 +597,18 @@ padding-left: 41px;
     margin-right: 340px;
 }
 .step-item {
-    
+    position: relative;
 }
 .step-item span {
     max-width: 258px;
     margin-bottom: 30px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
 }
 .step-item p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -598,7 +618,20 @@ padding-left: 41px;
     height: 48px;
     margin-bottom: 22px;
 }
-
+.line-step {
+    max-width: 1173px;
+    width: 100%;
+position: absolute;
+top: 160px;
+z-index: -1;
+}
+.line-step2 {
+    max-width: 800px;
+    width: 100%;
+    position: absolute;
+    bottom: 130px;
+    z-index: -1;
+}
 .friends {
     padding-top: 31px;
     padding-bottom: 85px;
@@ -654,7 +687,7 @@ padding-left: 41px;
 }
 .contacts-title {
     margin-bottom: 40px;
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -668,7 +701,7 @@ padding-left: 41px;
     margin-bottom: 20px;
 }
 .contacts-item-title span {
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -680,13 +713,13 @@ padding-left: 41px;
 }
 .contacts-item-number a {
     margin-bottom: 5px;
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
 }
 .contacts-item-number p {
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -698,13 +731,13 @@ padding-left: 41px;
 }
 .contacts-item-adrees p {
     max-width: 202px;
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
 }
 .contacts-item-email a{
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -719,14 +752,14 @@ padding-left: 41px;
 
 }
 .plast h2 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;    
     line-height: 44px;
     transform: translateY(-25px);
 }
 .plast-title-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -739,7 +772,7 @@ padding-left: 41px;
 .plast-form-content {
 }
 .plast-form-content p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -759,7 +792,7 @@ padding-left: 41px;
 
 }
 .plast-input {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -769,7 +802,7 @@ padding-left: 41px;
     padding-bottom: 10px;
 }
 .plast-input:placeholder {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -778,7 +811,7 @@ padding-left: 41px;
 
 }
 .plast-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
@@ -791,7 +824,7 @@ padding-left: 41px;
     text-decoration: none;
 }
 .checkbox-plast p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 12px;
@@ -851,7 +884,7 @@ position: relative;
   .input__file-button-text {
     line-height: 1;
     margin-top: 1px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -906,7 +939,7 @@ position: relative;
     flex-direction: column;
 }
 .footer-top-nav-link {
-    font-family: HelveticaNeueCyr;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -929,7 +962,7 @@ position: relative;
 margin-right: 11px;
 }
 .footer-top-info-rezhim-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -938,7 +971,7 @@ margin-right: 11px;
     color: #FFFFFF;
 }
 .footer-top-span {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -957,7 +990,7 @@ margin-right: 11px;
 }
 .footer-top-info-adress-text {
     max-width: 202px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -971,7 +1004,7 @@ margin-right: 11px;
 
 }
 .footer-top-info-mail-link {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -998,7 +1031,7 @@ margin-right: 11px;
 .footer-tel-wrap {
 }
 .footer-tel-wrap-link {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
@@ -1008,7 +1041,7 @@ margin-right: 11px;
     text-decoration: underline;
 }
 .footer-tel-wrap-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1019,7 +1052,7 @@ margin-right: 11px;
 
 }
 .footer-top-number-btn-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
@@ -1065,7 +1098,7 @@ margin-top: 10px;
     padding: 18px 90px 54px 55px;
 }
 .project-container h2 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -1089,7 +1122,7 @@ margin-top: 10px;
 
 }
 .input-project-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -1107,7 +1140,7 @@ margin-top: 10px;
     max-width: 439px;
 }
 .project-text p {
-    font-family:'HelveticaNeueCyr';
+    font-family:'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1129,7 +1162,7 @@ padding: 54px 40px 54px 40px;
 .invite-consult-text {
 }
 .invite-consult-text h2 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -1160,7 +1193,7 @@ padding: 54px 40px 54px 40px;
 
 }
 .docum-content h2 {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -1177,7 +1210,7 @@ padding: 54px 40px 54px 40px;
     width: 325px;
 }
 .docum-content-item p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1186,7 +1219,7 @@ padding: 54px 40px 54px 40px;
 
 }
 .docum-content-item a {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1214,7 +1247,7 @@ padding: 54px 40px 54px 40px;
     margin-top: 180px;
 }
 .bench-title-sw {
-    font-family:'Gilroy';
+    font-family:'Roboto';
 font-style: normal;
 font-weight: bold;
 line-height: 44px;
@@ -1227,7 +1260,7 @@ line-height: 44px;
 margin-top: 21px;
 }
 .production-price-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1235,14 +1268,14 @@ margin-top: 21px;
 
 }
 .production-price-text2 {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 line-height: 16px;
 margin-bottom: 2px;
 }
 .production-price-span {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1270,7 +1303,7 @@ padding: 31px 100px 38px 65px;
 }
 .imazing-title {
     max-width: 321px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -1285,10 +1318,10 @@ color: #48A9CF;
 .imazing-btn-link {
     background: #FFFFFF;
     border-radius: 3px;
-    padding: 17px;
+    padding: 15px;
     outline: none;
     text-decoration: none;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -1313,34 +1346,34 @@ color: #48A9CF;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 423px;
-    background: #F5F4FA;
+    width: 100%;
     border-radius: 3px;
+    margin-right: 20px;
 }
 .info-uslug-content {
+    width: 100%;
 }
-.info-uslug-content p {
-    max-width: 380px;
-}
+
 .info-uslug-title {
-    margin-bottom: 56px;
-    font-family: 'Gilroy';
+    margin-bottom: 25px;
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 line-height: 44px;
 }
 .info-uslug-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 line-height: 16px;
+max-width: 460px;
 }
 .info-uslug-raiting {
     margin-top: 22px;
     display: flex;
 }
 .info-uslug-item {
-    width: 101px;
+    width: 231px;
     margin-right: 75px;
     display: flex;
     align-items: flex-start;
@@ -1352,16 +1385,17 @@ line-height: 16px;
 .info-uslug-item-text {
 }
 .info-uslug-item-text-span {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 line-height: 44px;
 }
 .info-uslug-item-text-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: normal;
 line-height: 14px;
+max-width: 231px;
 }
 .production-final {
     margin-top: 117px;
@@ -1376,7 +1410,7 @@ line-height: 14px;
 }
 .production-final-title {
     max-width: 321px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -1394,7 +1428,7 @@ line-height: 14px;
 .zakaz-container {
 }
 .zakaz-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 line-height: 44px;
@@ -1407,29 +1441,33 @@ line-height: 44px;
 }
 .zakaz-item {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 175px;
+    align-items: center;
+    margin-right: 40px;
     margin-bottom: 75px;
+    background: #FFFFFF;
+border: 1px solid #B2B3B8;
+box-sizing: border-box;
+border-radius: 3px;
+padding: 45px 30px 47px 30px;
 }
 .zakaz-item-img {
     width: 60px;
     height: 60px;
-    margin-bottom: 11px;
+    margin-right: 22px;
 }
 .zakaz-item-span {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 line-height: 19px;
 margin-bottom: 19px;
 }
 .zakaz-item-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 19px;
-    max-width: 200px;
+    max-width: 390px;
 }
 
 /* .gallery-thumbs {
@@ -1504,21 +1542,21 @@ margin-bottom: 19px;
   
 .buy-title {
     width: 380px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 38px;
     margin-bottom: 19px;
 }
 .buy-price-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 35px;
     margin-bottom: 48px;
 }
 .buy-price-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     line-height: 16px;
@@ -1537,14 +1575,14 @@ margin-bottom: 19px;
 }
 
 .buy-price-subtext {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
 }
 
 .buy-price-text-two {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1568,7 +1606,7 @@ margin-bottom: 19px;
 }
 .tabs-nav-text {
     margin-right: 20px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1603,7 +1641,7 @@ margin-bottom: 19px;
 .tabs-block-one-title {
     margin-bottom: 30px;
     display: block;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1611,14 +1649,14 @@ margin-bottom: 19px;
 
 .tabs-block-one-text {
     margin-bottom: 20px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 21px;
 }
 
 .tabs-block-one-li {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1633,7 +1671,7 @@ margin-bottom: 19px;
 
 }
 .tabs-block-two-title {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1655,7 +1693,7 @@ margin-bottom: 19px;
 }
 .tabs-bottom {
     margin-top: 40px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 14px;
@@ -1672,14 +1710,14 @@ margin-bottom: 19px;
 }
 
 .gotovo-title {
-    font-family:'Gilroy';
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
 }
 .gotovo-slider-text {
     max-width: 217px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 18px;
@@ -1710,7 +1748,7 @@ margin-bottom: 19px;
     padding: 17px;
     outline: none;
     text-decoration: none;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
     font-size: 16px;
@@ -1719,7 +1757,7 @@ margin-bottom: 19px;
     cursor: pointer;
 }
 .info-product-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 44px;
@@ -1735,7 +1773,7 @@ margin-bottom: 19px;
 }
 .info-product-text-p {
     max-width: 439px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1826,13 +1864,13 @@ padding-top: 20px;
 }
 .jobs-title {
     margin-bottom: 70px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 line-height: 43px;
 }
 .jobs-content-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -1840,7 +1878,7 @@ line-height: 43px;
     margin-bottom: 41px;
 }
 .jobs-content-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1848,7 +1886,7 @@ line-height: 43px;
     max-width: 341px;
 }
 .jobs-content-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1896,13 +1934,13 @@ line-height: 43px;
 }
 .jobs-two-title {
     margin-bottom: 70px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 line-height: 43px;
 }
 .jobs-two-content-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -1910,7 +1948,7 @@ line-height: 43px;
     margin-bottom: 41px;
 }
 .jobs-two-content-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1918,7 +1956,7 @@ line-height: 43px;
     max-width: 341px;
 }
 .jobs-two-content-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -1967,13 +2005,13 @@ line-height: 43px;
 }
 .jobs-three-title {
     margin-bottom: 70px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 line-height: 43px;
 }
 .jobs-three-content-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -1981,7 +2019,7 @@ line-height: 43px;
     margin-bottom: 41px;
 }
 .jobs-three-content-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -1989,7 +2027,7 @@ line-height: 43px;
     max-width: 341px;
 }
 .jobs-three-content-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -2037,13 +2075,13 @@ line-height: 43px;
 }
 .jobs-four-title {
     margin-bottom: 70px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 line-height: 43px;
 }
 .jobs-four-content-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -2051,7 +2089,7 @@ line-height: 43px;
     margin-bottom: 41px;
 }
 .jobs-four-content-text {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -2059,7 +2097,7 @@ line-height: 43px;
     max-width: 341px;
 }
 .jobs-four-content-btn {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 16px;
@@ -2088,7 +2126,7 @@ line-height: 43px;
 .project-full-title {
     max-width: 320px;
     margin-bottom: 49px;
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -2097,7 +2135,7 @@ line-height: 43px;
 .project-full-text-p {
     max-width: 340px;
     margin-bottom: 28px;
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -2109,7 +2147,7 @@ line-height: 43px;
     justify-content: space-evenly;
 }
 .project-full-content-title {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     line-height: 43px;
@@ -2118,7 +2156,7 @@ line-height: 43px;
     max-width: 450px;
 }
 .project-full-content-text-p {
-    font-family: 'HelveticaNeueCyr';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 16px;
@@ -2251,14 +2289,14 @@ line-height: 43px;
     height: 280px;
 }
 .bench-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;
     color: #48A9CF;
 }
 .bench-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2266,7 +2304,7 @@ line-height: 43px;
     color: #48A9CF;
 }
 .velo-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;    
@@ -2274,7 +2312,7 @@ line-height: 43px;
 
 }
 .velo-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2282,14 +2320,14 @@ line-height: 43px;
     color: #FFFFFF;
 }
 .urn-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;
     color: #48A9CF;
 }
 .urn-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2297,14 +2335,14 @@ line-height: 43px;
     color: #48A9CF;
 }
 .ploshad-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;    
     color: #FFFFFF;
 }
 .ploshad-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2312,14 +2350,14 @@ line-height: 43px;
     color: #FFFFFF;
 }
 .ograd-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;
     color: #48A9CF;
 }
 .ograd-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2327,14 +2365,14 @@ line-height: 43px;
     color: #48A9CF;
 }
 .poli-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;
     color: #48A9CF;
 }
 .poli-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -2342,14 +2380,14 @@ line-height: 43px;
     color: #48A9CF;
 }
 .metal-elem-number {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 60px;    
     color: #FFFFFF;
 }
 .metal-elem-text {
-    font-family: 'Gilroy';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 22px;

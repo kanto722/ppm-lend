@@ -262,6 +262,20 @@
         height: 490px;
 
     }
+    .line-step {
+        max-width: 1020px;
+        width: 100%;
+    position: absolute;
+    top: 160px;
+    z-index: -1;
+    }
+    .line-step2 {
+        max-width: 800px;
+        width: 100%;
+        position: absolute;
+        bottom: 130px;
+        z-index: -1;
+    }
 }
 @media screen and (max-width: 992px){
     .metal-elem {
@@ -505,9 +519,9 @@
         justify-content: center;
     }
     .info-uslug-img {
-        height: 300px;
         margin-bottom: 30px;
     }
+
     .production-final-content {
         flex-direction: column;
     }
@@ -527,6 +541,23 @@
     }
     .plast-form-item {
         margin-right: 0;
+    }
+    .line-step {
+        display: none;
+    }
+    .line-step2 {
+        display: none;
+
+    }
+    .info-uslug-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-uslug-item {
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
     }
 }
 @media screen and (max-width: 768px){
@@ -973,6 +1004,21 @@
     .zakaz-title {
         text-align: center;
     }
+    .pad-rihg {
+        padding-right: 36px;
+    }
+    .plast-form {
+        max-width: 300px;
+    }
+    .info-uslug-raiting {
+        flex-direction: column;
+        margin-right: 0;
+
+    }
+    .info-uslug-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 480px){
     .header-info-one a {
@@ -1139,14 +1185,55 @@
     .input__wrapper {
         width: 100%;
     }
+    /* .plast-input {
+        width: 100%;
+    } */
+    .input__file-icon-wrapper {
+        margin-right: 5px;
+    }
+    .plast-form {
+        max-width: 250px;
+    }
+    .input__file-button {
+        max-width: 100%;
+    }
     .plast-input {
+        padding-top: 15px;
+        padding-bottom: 19px;
+    }
+ 
+    .input__file-button {
+        width: 250px;
+    }
+    .plast-btn {
+        padding: 25px 34px;
+
+    }
+    .plast-form-container {
+        width: 210px;
+        padding-left: 20px;
+
+    }
+    .input__file {
+        position: relative;
+    }
+    .info-uslug-img img{
         width: 100%;
     }
-    .input__file-icon-wrapper {
-        margin-right: 5;
+    .zakaz-item {
+        flex-direction: column;
+        padding: 26px 15px 35px 15px;
+
+    }
+    .zakaz-item-img {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 375px){
+    .plast-form {
+        max-width: 280px;
+    }
     .plast-form-content {
         padding: 0px 20px;
 
