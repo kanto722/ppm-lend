@@ -41,9 +41,26 @@ const swiper = new Swiper('.swiper-container', {
       $('.header-media').toggleClass('header-media__active');
     });
 
-
-
-
-
-
 });
+
+// Отложенная загрузка карты
+var YaMapsShown = false;
+
+$(window).scroll(function () {
+  var offset = $('.maps-container').offset().top;
+  if (!YaMapsShown) {
+    if ($(window).scrollTop() + $(window).height() > offset - 600) {
+      showYaMaps();
+      YaMapsShown = true;
+    }
+  }
+});
+
+function showYaMaps() {
+   var script = document.createElement("script");
+   script.type = "text/javascript";
+   script.src = "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4e2e6cb1d0825abe818445dcb12af0ce5e644314352f086ea7e77460648844f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false";
+
+   document.getElementById("maps").appendChild(script);
+ };
+// КОНЕЦ Отложенная загрузка карты
