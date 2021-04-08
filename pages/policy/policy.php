@@ -1,4 +1,7 @@
-
+<?php
+    $root_server = $_SERVER["DOCUMENT_ROOT"];
+    include (''.$root_server.'/include/header.php');
+?>
         <section class="policy">
             <div class="wrap">
                 <div class="policy-container">
@@ -97,4 +100,6 @@
                 </div>
             </div>
         </section>
-        
+        <?php
+        include (''.$root_server.'/include/footer.php');
+    ?> 

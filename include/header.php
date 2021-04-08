@@ -7,7 +7,18 @@
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-
+    <!-- graph -->
+    <meta property="og:image" content=" "/>
+    <meta property="og:title" content=" " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" " />
+    <meta property="og:description " content="" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="" />
+    <meta itemprop="name" content="" />
+    <meta itemprop="description" content="" />
+    <meta itemprop="image" content="" />
+    <!-- graph -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- <link rel="icon" href="/css/img/favicon/altair-mini.png" />
@@ -44,42 +55,38 @@
                             <div class="header-info-two df">
                                 <a class="df" href="tel:73452548800">
                                     <img src="/css/img/svg/phone-green.svg" alt="телефон">
-                                    <p class="fsz12 black df">+7 (3452) 54-88-00<br><span class="fsz8 hex">Отдел полимерных покрытий</span></p>
+                                    <p class="fsz12 black df">+7 (3452) 54-88-00<br><span class="fsz12 hex">Отдел полимерных покрытий</span></p>
                                 </a>
                                 <a href="tel:73452530575">
-                                    <p class="fsz12 black df">+7 (3452) 53-05-75<br><span class="fsz8 hex">Отдел металлоизделий</span></p>
+                                    <p class="fsz12 black df">+7 (3452) 53-05-75<br><span class="fsz12 hex">Отдел металлоизделий</span></p>
                                 </a>
                             </div>
                         </div>
                         <div class="header-btn">
-                            <a href="#" class="green-bt bg-green white fsz16">Заказать звонок</a>
+                            <a onclick="invite();" class="green-bt bg-green white fsz16">Заказать звонок</a>
                         </div>
                         <div class="header-burger">
                             <span></span>
                         </div>
                         <div class="header-media">
                             <div class="header-nav bg-grey df header-nav-drop">
-                                <a href="#" class="header-nav-item df">
+                                <a href="/" class="header-nav-item df">
                                     <img src="/css/img/svg/shape-header.svg" alt="точка">
                                     <p class="fsz14 white">Главная</p>
                                 </a>
-                                <a href="#" class="header-nav-item df">
+                                <a href="/pages/production/" class="header-nav-item df">
                                     <img src="/css/img/svg/shape-header.svg" alt="точка">
                                     <p class="fsz14 white">Производственные направления</p>
                                 </a>
-                                <a href="#" class="header-nav-item df">
+                                <a href="/pages/about/" class="header-nav-item df">
                                     <img src="/css/img/svg/shape-header.svg" alt="точка">
                                     <p class="fsz14 white">О компании</p>
                                 </a>
-                                <a href="#" class="header-nav-item df">
-                                    <img src="/css/img/svg/shape-header.svg" alt="точка">
-                                    <p class="fsz14 white">Акции</p>
-                                </a>
-                                <a href="#" class="header-nav-item df">
+                                <a href="/pages/portfolio/" class="header-nav-item df">
                                     <img src="/css/img/svg/shape-header.svg" alt="точка">
                                     <p class="fsz14 white">Портфолио</p>
                                 </a>
-                                <a href="#" class="header-nav-item df">
+                                <a href="/pages/contacts/" class="header-nav-item df">
                                     <img src="/css/img/svg/shape-header.svg" alt="точка">
                                     <p class="fsz14 white">Контакты</p>
                                 </a>
@@ -109,27 +116,23 @@
                 </div>
                 <div class="header-wrapper bg-grey header-line-adapt">
                     <div class="header-nav bg-grey df adapt-none">
-                        <a href="#" class="header-nav-item df">
+                        <a href="/" class="header-nav-item df">
                             <img src="/css/img/svg/shape-header.svg" alt="точка">
                             <p class="fsz14 white">Главная</p>
                         </a>
-                        <a href="#" class="header-nav-item df">
+                        <a href="/pages/production/" class="header-nav-item df">
                             <img src="/css/img/svg/shape-header.svg" alt="точка">
                             <p class="fsz14 white">Производственные направления</p>
                         </a>
-                        <a href="#" class="header-nav-item df">
+                        <a href="/pages/about/" class="header-nav-item df">
                             <img src="/css/img/svg/shape-header.svg" alt="точка">
                             <p class="fsz14 white">О компании</p>
                         </a>
-                        <a href="#" class="header-nav-item df">
-                            <img src="/css/img/svg/shape-header.svg" alt="точка">
-                            <p class="fsz14 white">Акции</p>
-                        </a>
-                        <a href="#" class="header-nav-item df">
+                        <a href="/pages/portfolio/" class="header-nav-item df">
                             <img src="/css/img/svg/shape-header.svg" alt="точка">
                             <p class="fsz14 white">Портфолио</p>
                         </a>
-                        <a href="#" class="header-nav-item df">
+                        <a href="/pages/contacts/" class="header-nav-item df">
                             <img src="/css/img/svg/shape-header.svg" alt="точка">
                             <p class="fsz14 white">Контакты</p>
                         </a>

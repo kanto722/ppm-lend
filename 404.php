@@ -1,4 +1,7 @@
-
+<?php
+    $root_server = $_SERVER["DOCUMENT_ROOT"];
+    include (''.$root_server.'/include/header.php');
+?>
         <section class="error_page-section">
             <div class="wrap">
                 <div class="error_page-content">
@@ -8,3 +11,6 @@
                 </div>
             </div>
         </section>
+        <?php
+    include (''.$root_server.'/include/footer.php');
+?> 

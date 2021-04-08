@@ -1,4 +1,3 @@
-
 <div class="promo-block df bg-white">
     <div class="promo-block-job df-column">
         <span class="fsz16 black">Работая с нами Вы получаете</span>

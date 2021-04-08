@@ -1,4 +1,7 @@
-
+<?php
+    $root_server = $_SERVER["DOCUMENT_ROOT"];
+    include (''.$root_server.'/include/header.php');
+?>
         <section class="cookie2">
             <div class="wrap">
                 <div class="cookie2-container">
@@ -31,3 +34,6 @@
                 </div>
             </div>
         </section>
+        <?php
+        include (''.$root_server.'/include/footer.php');
+    ?> 

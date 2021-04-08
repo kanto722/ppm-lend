@@ -1348,6 +1348,35 @@
         font-size:20px;
         margin-bottom:50px
     }
+    .popup-group {
+    top: 65px;
+    }
+    .invite-title-text {
+        font-size: 20px;
+    }
+    .popup-invite {
+        width: 100%;
+        height: 100%;
+    }
+    .invite-form-btn {
+        padding: 17px 0px;
+        width: 100%;
+    }
+    .price-title-text {
+        font-size: 20px;
+    }
+    .popup-price {
+        width: 100%;
+        height: 100%;
+    }
+    .price-form-btn {
+        padding: 17px 0px;
+        width: 100%;
+    }
+    .popup-good-btn{
+        padding: 17px 0px;
+        width: 100%;
+    }
   }
 
   @media (max-width: 767px){
